@@ -21,7 +21,7 @@ export default function Home() {
       <h1>Bienvenido a mi FCumpleaños</h1>
       <img src="/cristi.png"/>
       <img className="gif" src="/image.gif"/>
-      <button onClick={toggleDarkLight}>Soy tu lado oscuro </button>
+      <button onClick={toggleDarkLight}>Lado oscuro </button>
       </main>
 
       <footer>
