@@ -1,0 +1,66 @@
+body{
+  position: relative;
+}
+
+img{
+  width: 30%;
+}
+
+h1{
+  font-size: 4em ;
+  background: -webkit-linear-gradient(#f70fff, #12d6df);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+p{
+  font-size: 2em;
+}
+
+
+@mixin background-image {
+  background-image: url("/background.png");
+}
+
+$dark-color: #111;
+$light-color: #FFC425;
+
+body.dark-mode {
+  @include background-image;
+  color: $light-color;
+  a {
+    color: $dark-color;
+  }
+  button {
+    background-color: $light-color;
+    color: $dark-color;
+  }
+  .gif {
+    display: initial;
+  }
+}
+
+body.light-mode {
+  background-color: $light-color;
+  color: $dark-color;
+  a {
+    color: $dark-color;
+  }
+  button {
+    background-color: $dark-color;
+    color: $light-color;
+  }
+  .gif {
+    display: none;
+  }
+}
+
+button{
+  font-size: 1em;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  position: fixed;
+  right: 150px;
+
+}
