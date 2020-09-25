@@ -1,10 +1,13 @@
 
 img{
-  width: 50%;
+  width: 30%;
 }
 
 h1{
   font-size: 4em ;
+  background: -webkit-linear-gradient(#f70fff, #12d6df);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 p{
   font-size: 2em;
