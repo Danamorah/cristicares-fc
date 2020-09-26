@@ -37,6 +37,9 @@ body.dark-mode {
   .gif {
     display: initial;
   }
+  .video{
+    display: initial;
+  }
 }
 
 body.light-mode {
@@ -50,6 +53,9 @@ body.light-mode {
     color: $light-color;
   }
   .gif {
+    display: none;
+  }
+  .video{
     display: none;
   }
 }

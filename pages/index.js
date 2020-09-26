@@ -2,7 +2,7 @@ import Head from 'next/head'
 import styles from './index.module.scss'
 
 export default function Home() {
-  
+
   function toggleDarkLight() {
     const body = document.getElementById("body");
     console.log("body", body)
@@ -21,12 +21,17 @@ export default function Home() {
       <h1>Bienvenido a mi FCumpleaños</h1>
       <img src="/cristi.png"/>
       <img className="gif" src="/image.gif"/>
+          <div className="video">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/FYZ_jPQ6kZ8?start=38&autoplay=1" frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen/>
+          </div>
       <button onClick={toggleDarkLight}>Lado oscuro </button>
       </main>
 
       <footer>
-      <p>kihwak uhu uhuhuuh nom nom 🎵 </p>  
-      <p>kihwak  jajaja jajaaj miau miau 🎶</p> 
+      <p>kihwak uhu uhuhuuh nom nom 🎵 </p>
+      <p>kihwak  jajaja jajaaj miau miau 🎶</p>
       </footer>
 
       {/* <style jsx>{`
