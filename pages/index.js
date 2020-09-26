@@ -20,13 +20,16 @@ export default function Home() {
       <main>
       <h1>Bienvenido a mi FCumpleaños</h1>
       <img src="/cristi.png"/>
-      <img className="gif" src="/image.gif"/>
+          <button onClick={toggleDarkLight}>Lado oscuro </button>
+
+          <a target="_blank" href="https://thoughtworks.zoom.us/j/99246961348"><div className="polig"></div></a>
+          <img className="gif" src="/image.gif"/>
+
           <div className="video">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/FYZ_jPQ6kZ8?start=38&autoplay=1" frameBorder="0"
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/FYZ_jPQ6kZ8?start=38&autoplay=1" frameBorder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowFullScreen/>
           </div>
-      <button onClick={toggleDarkLight}>Lado oscuro </button>
       </main>
 
       <footer>

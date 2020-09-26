@@ -40,6 +40,13 @@ body.dark-mode {
   .video{
     display: initial;
   }
+  .polig{
+    position: absolute;
+    width:120px;
+    height:100px;
+    top: 180px;
+    left: 350px;
+  }
 }
 
 body.light-mode {
@@ -56,6 +63,9 @@ body.light-mode {
     display: none;
   }
   .video{
+    display: none;
+  }
+  .polig{
     display: none;
   }
 }
