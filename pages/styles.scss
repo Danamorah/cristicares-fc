@@ -5,13 +5,6 @@ body{
 img{
   width: 30%;
 }
-
-h1{
-  font-size: 4em ;
-  background: -webkit-linear-gradient(#f70fff, #12d6df);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 p{
   font-size: 2em;
 }
@@ -40,6 +33,12 @@ body.dark-mode {
   .video{
     display: initial;
   }
+  h1{
+    font-size: 4em ;
+    background: -webkit-linear-gradient(#1cb208,#9f3121);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
   .polig{
     position: absolute;
     width:120px;
@@ -67,6 +66,12 @@ body.light-mode {
   }
   .polig{
     display: none;
+  }
+  h1{
+    font-size: 4em ;
+    background: -webkit-linear-gradient(#f70fff, #12d6df);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 }
 
